@@ -1,0 +1,13 @@
+﻿create database giftcardproj;
+
+use giftcardproj;
+
+create table giftcardproj(
+CustomerNo int primary key,
+CardNo int,
+Balance int
+);
+
+insert into giftcardproj (CustomerNo, CardNo, Balance) values(1,100,107);
+
+select * from giftcardproj;
